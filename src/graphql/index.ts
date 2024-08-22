@@ -5,7 +5,7 @@ async function createApolloGraphqlServer(){
         typeDefs: `
         type Query {
 
-           hello:String
+           ${User.queries}
            
         }
     
